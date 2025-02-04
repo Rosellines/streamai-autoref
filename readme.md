@@ -38,12 +38,25 @@ because developer web stream not allowed temp email generator again, so im using
    format proxy
 
    ```sh
+   nano proxy.txt
+
+   with protocol
    http://127.0.0.1:8080
    http://user:pass@127.0.0.1:8080
    ```
 
 4. change `config.json.example` to `config.json`.
 
+```sh
+nano src/json/config.json.example
+```
+paste your email address and login with passcode.
+how to create passcode gmail?
+https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4Miw1OadfJYogXVwxQQ0R5g7QO-IKAxIvIzZkkUJjmp07Xv5SLpeBeX0lJBqWaG8XD1hnpGeb6LwF-co2AanNhicTjXtHL7xXuf7lZ1c6atv80nIE8
+and enter gmail, then u can some code.
+then use and paste to your password email.
+then save with name
+config.json
 ## Usage
 
 1. Run the bot:
